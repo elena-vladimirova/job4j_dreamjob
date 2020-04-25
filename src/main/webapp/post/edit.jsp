@@ -25,7 +25,7 @@
     String id = request.getParameter("id");
     Post post = new Post(0, "");
     if (id != null) {
-        post = Store.instOf().findPostById(Integer.valueOf(id));
+        post = Store.instOf().findPostById(Integer.valueOf(1));
     }
 %>
 <div class="container pt-3">
@@ -51,4 +51,5 @@
     </div>
 </div>
 </body>
+
 </html>
