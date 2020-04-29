@@ -39,4 +39,14 @@
       <url-pattern>/greet</url-pattern>
   </servlet-mapping>
 
+  <servlet>
+      <servlet-name>GreetingServletJSON</servlet-name>
+      <servlet-class>ru.job4j.dream.servlet.GreetingServletJSON</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+      <servlet-name>GreetingServletJSON</servlet-name>
+      <url-pattern>/greetJSON</url-pattern>
+  </servlet-mapping>
+
 </web-app>
